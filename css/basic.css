@@ -1,0 +1,267 @@
+body {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 10px;
+}
+
+.tableHead {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 11px;
+	font-weight: 400;
+	color: Black;
+}
+
+.table {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 10px;
+	font-weight: 400;
+	color: Black;
+}
+
+.tableStrike 	 {	font-family: "Verdana, Arial, Sans Serif";	text-decoration: line-through;	font-size: 10px;	font-weight: 400;	color: Gray; }
+.tableFade 		 {	font-family: "Verdana, Arial, Sans Serif";	font-size: 10px;	font-weight: 400;	color: Gray; }
+
+.errorRed {
+	font-family: "Verdana, Arial, Sans Serif";
+	/*font-size: 10px;*/
+	color: FF0000;	
+}
+
+.errorOrange {
+	font-family: "Verdana, Arial, Sans Serif";
+	/*font-size: 10px;*/
+	color: FF9900;	
+}
+
+.errorGreen {
+	font-family: "Verdana, Arial, Sans Serif";
+	/*font-size: 10px;*/
+	color: 009900;	
+}
+
+p {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 10px;
+}
+
+td {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 10px;
+}
+
+INPUT.small 
+{
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    font-size : 10px;
+    font-weight : 400;
+    background-color : #EEEEEE;
+    border-color : 666666;
+    border-style : solid;
+    border-width : 1px;
+    color : #333333;
+}
+
+INPUT.readonly 
+{
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    font-size : 10px;
+    font-weight : 400;
+    background-color : #EEEEEE;
+    border-color : 666666;
+    border-style : solid;
+    border-width : 1px;
+    color : #999999;
+}
+
+SELECT.small		
+{
+	BACKGROUND-COLOR: #EEEEEE; 
+	COLOR: #333333; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	FONT-SIZE: 10px
+}
+
+TEXTAREA.small
+{	background-color: #EEEEEE;	color: #333333;	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; font-weight: 400;
+}
+
+/*--------------------------------------------------------------------------*/
+
+a:link {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 333333;
+	font-size: 10px; 
+	font-weight: 400; 
+	text-decoration: underline; }
+
+a:active {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 333333;
+	font-size: 10px; 
+	font-weight: 400; 
+	text-decoration: underline; }
+
+a:visited {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 333333;
+	font-size: 10px; 
+	font-weight: 400; 
+	text-decoration: underline; }
+
+a:hover {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 333333;
+	font-size: 10px; 
+	font-weight: 400; 
+	text-decoration: none; }
+
+a.TH:link {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 000000;
+	font-size: 11px; 
+	font-weight: 400; 
+	text-decoration: underline; }
+
+a.TH:active {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 000000;
+	font-size: 11px; 
+	font-weight: 400; 
+	text-decoration: underline; }
+
+a.TH:visited {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 000000;
+	font-size: 11px; 
+	font-weight: 400; 
+	text-decoration: underline; }
+
+a.TH:hover {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: 000000;
+	font-size: 11px; 
+	font-weight: 400; 
+	text-decoration: none; }
+
+/*--------------------------------------------------------------------------
+	
+a.tiny:link {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: Black;
+	font-size: 9px; 
+	font-weight: 600; 
+	text-decoration: none; }
+
+a.tiny:active {
+	font-family: "Verdana, Arial, Sans Serif"; 
+	color: Black;
+	font-size: 9px; 
+	font-weight: 600; 
+	text-decoration: none; }
+
+a.tiny:visited {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: Black;
+	font-size: 9px; 
+	font-weight: 600; 
+	text-decoration: none; }
+
+a.tiny:hover {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: Blue;
+	font-size: 9px; 
+	font-weight: 600; 
+	text-decoration: underline; }
+
+/*--------------------------------------------------------------------------	
+	
+a.tinyFade:link {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: Silver;
+	font-size: 9px; 
+	font-weight: 400; 
+	text-decoration: none; }
+
+a.tinyFade:active {
+	font-family: "Verdana, Arial, Sans Serif"; 
+	color: Silver;
+	font-size: 9px; 
+	font-weight: 400; 
+	text-decoration: none; }
+
+a.tinyFade:visited {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: Silver;
+	font-size: 9px; 
+	font-weight: 400; 
+	text-decoration: none; }
+
+a.tinyFade:hover {
+	font-family: "Verdana, Arial, Sans Serif";
+	color: Blue;
+	font-size: 9px; 
+	font-weight: 400; 
+	text-decoration: underline; }
+
+/*--------------------------------------------------------------------------	
+	
+	
+
+.tableFocus {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 10px;
+	font-weight: 400;
+	color: Red;
+}
+
+.tableStrike {
+	font-family: "Verdana, Arial, Sans Serif";
+	text-decoration: line-through;
+	font-size: 10px;
+	font-weight: 400;
+	color: Gray;
+}
+
+
+.main {
+	background-color: White;
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 14px;
+	color: Black;
+	font-weight: 400;
+}
+
+
+
+.main h2 {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 26px;
+	color: Black;
+	font-weight: 600;
+}
+
+
+.main h3 {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 20px;
+	color: Black;
+	font-weight: 600;
+}
+
+
+.main h4 {
+	font-family: "Verdana, Arial, Sans Serif";
+	font-size: 16px;
+	color: Black;
+	font-weight: 600;
+}
+
+
+.oddDisplay {
+	color: Navy;
+}
+
+
+.evenDisplay {
+	color: Olive;
+}*/
